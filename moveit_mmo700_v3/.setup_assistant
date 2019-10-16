@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: neo_simulation
+    relative_path: robots/mmo_700/mmo_700.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/mmo_700.srdf
+  CONFIG:
+    author_name: pradheep
+    author_email: pradheep@neobotix.de
+    generated_timestamp: 1570722782
